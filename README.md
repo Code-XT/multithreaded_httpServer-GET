@@ -23,7 +23,7 @@ To compile the proxy server (although precompiled file is already included), run
 make all
 ```
 
-###Running the Proxy Server
+### Running the Proxy Server
 To run the proxy server, use the following command:
 
 ```./proxy_server <port-no.>```
@@ -31,11 +31,11 @@ Replace <port-no.> with the port number you want the proxy server to listen on. 
 
 ```./proxy_server 8080```
 
-###Project Structure
+### Project Structure
 proxy_server.cpp: The main source file containing the implementation of the proxy server.
 README.md: This README file.
 
-###Usage
+### Usage
 Compile the source code using the provided compilation command.
 Run the proxy server on a desired port.
 Configure your web browser or HTTP client to use the proxy server by specifying localhost and the port number you chose.
